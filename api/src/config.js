@@ -11,7 +11,7 @@ export default {
     format: 'String',
     default: '0.0.0.0',
     nullable: true,
-    env: 'PORT',
+    env: 'HOST',
   },
   logger: {
     level: {
