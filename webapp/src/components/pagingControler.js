@@ -20,10 +20,7 @@ export default function PagingController() {
       </div>
       <div>
         <span>Show rows</span>
-        <select
-          onChange={(e) => setPerPage(e.target.value)}
-          defaultValue={perPage}
-        >
+        <select onChange={(e) => setPerPage(e.target.value)} value={perPage}>
           <option value={5}>5</option>
           <option value={10}>10</option>
           <option value={15}>15</option>
