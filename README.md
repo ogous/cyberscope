@@ -29,7 +29,7 @@ Drawing inspiration from successful practices observed in platforms like Coingec
 
 However, it's important to acknowledge certain limitations, particularly concerning the Coingecko API:
 
-Rate Limiting: The Coingecko API imposes strict rate limits, often resulting in temporary blocks after a certain number of requests within a short timeframe. This constraint presents challenges, especially during project navigation or deployment, as backend services may become temporarily inaccessible.
+Rate Limiting: The Coingecko API imposes strict rate limits ("CoinGecko's Public API has a rate limit of 5 to 15 calls per minute, depending on usage conditions worldwide." [see here](https://support.coingecko.com/hc/en-us/articles/4538771776153-What-is-the-rate-limit-for-CoinGecko-API-public-plan#:~:text=CoinGecko's%20Public%20API%20has%20a,depending%20on%20usage%20conditions%20worldwide.)), often resulting in temporary blocks after a certain number of requests within a short timeframe. This constraint presents challenges, especially during project navigation or deployment, as backend services may become temporarily inaccessible.
 
 ## Screenshots
 
