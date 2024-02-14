@@ -30,3 +30,9 @@ Drawing inspiration from successful practices observed in platforms like Coingec
 However, it's important to acknowledge certain limitations, particularly concerning the Coingecko API:
 
 Rate Limiting: The Coingecko API imposes strict rate limits, often resulting in temporary blocks after a certain number of requests within a short timeframe. This constraint presents challenges, especially during project navigation or deployment, as backend services may become temporarily inaccessible.
+
+## Screenshots
+
+![Screenshot 2024-02-14 at 19 18 57](https://github.com/ogous/cyberscope/assets/47118973/80e26786-f3fa-41e3-a27c-c53a8af6a45c)
+
+![Screenshot 2024-02-14 at 19 19 11](https://github.com/ogous/cyberscope/assets/47118973/a81b531d-5eed-4480-bf1e-dc7c1ddaa430)
