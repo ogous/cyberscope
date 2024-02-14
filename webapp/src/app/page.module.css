@@ -1,0 +1,136 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+.coinTable {
+  border-collapse: collapse;
+}
+.coinTable thead {
+  border-top: 1px solid gray;
+}
+.coinTable thead th {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: left;
+  font-size: 14px;
+}
+.coinTable thead th:first-child {
+  padding-right: 24px;
+}
+
+.coinTable thead th:not(:first-child):not(:nth-child(2)) {
+  padding-left: 16px;
+}
+.coinTableRow {
+  border-top: 1px gray solid;
+  border-bottom: 1px gray solid;
+  height: 64px;
+}
+.coinTableRow:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.coinTableRow > td:not(:first-child) {
+  text-align: right;
+}
+.coinRowWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.pagingController {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.pagingController button {
+  border: none;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+}
+.pagingController button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+.pagingControllerIndct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+.pagingController > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.pagingController select {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 32px;
+  font-size: 18px;
+  border-radius: 6px;
+  padding: 0 8px;
+}
+
+.detailContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  gap: 24px;
+}
+
+.detailContainer > div:first-child {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.detailContainer > div:nth-child(2) {
+  flex: 2;
+}
+
+.detailContainer > div:first-child > ul {
+  list-style: none;
+  margin-top: 16px;
+}
+.detailContainer > div:first-child > ul > li {
+  display: flex;
+  gap: 12px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.detailContainer table {
+  margin-top: 32px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+.detailContainer table thead {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.detailContainer table thead th {
+  padding: 8px;
+}
+
+.detailContainer table tbody td {
+  padding: 8px;
+  text-align: center;
+}

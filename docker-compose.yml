@@ -1,0 +1,29 @@
+services:
+  api:
+    build:
+      context: ./api
+    container_name: cyberscope-api
+    ports:
+      - 3001:3001
+    networks:
+      - cyberscope
+  webapp:
+    build:
+      context: ./webapp
+    env_file:
+      - ./webapp/.env.docker
+    container_name: cyberscope-webapp
+    ports:
+      - 3000:3000
+    networks:
+      - cyberscope
+    depends_on:
+      api:
+        condition: service_started
+    # healthcheck:
+    #   test: yarn health
+    #   interval: 10s
+    #   timeout: 5s
+    #   retries: 5
+networks:
+  cyberscope:

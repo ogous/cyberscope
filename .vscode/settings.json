@@ -1,0 +1,4 @@
+{
+  "prettier.configPath": ".prettierrc.json",
+  "eslint.workingDirectories": ["webapp", "api"]
+}
