@@ -13,7 +13,6 @@ start()
     )
   })
   .catch((error) => {
-    console.log('BBOBO', error)
     errorHandler.handleError(
       new AppError('startup-failure', error.message, 500, error)
     )
