@@ -2,6 +2,10 @@
 
 This code repo contains a web application developed with Next.js and a backend service developed with Node.js & Express.js that proxies Coingecko API.
 
+# Deployed Versions
+
+Web application is available at `https://cyberscope-web.fly.dev` and API is available at `https://cyberscope-api.fly.dev` deployed with Fly.io to edge servers on Bucharest, Romania.
+
 ## How to Run for Development
 
 When you're ready, start your application by running:
