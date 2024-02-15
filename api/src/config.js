@@ -2,7 +2,7 @@ export default {
   port: {
     doc: 'The API listening port.',
     format: 'Number',
-    default: 3001,
+    default: 8080,
     nullable: true,
     env: 'PORT',
   },
