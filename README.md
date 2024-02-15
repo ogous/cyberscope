@@ -4,7 +4,7 @@ This code repo contains a web application developed with Next.js and a backend s
 
 # Deployed Versions
 
-Web application is available at (cyberscope-web.fly.dev)[https://cyberscope-web.fly.dev] and API is available at (cyberscope-api.fly.dev)[https://cyberscope-api.fly.dev] deployed with Fly.io to edge servers on Bucharest, Romania.
+Web application is available at [cyberscope-web.fly.dev](https://cyberscope-web.fly.dev) and API is available at [cyberscope-api.fly.dev](https://cyberscope-api.fly.dev) deployed with Fly.io to edge servers on Bucharest, Romania.
 
 ## How to Run for Development
 
